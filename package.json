@@ -15,7 +15,7 @@
     "build": "tsup --dts",
     "type-check": "tsc --noEmit",
     "test": "jest",
-    "start": "node dist/cli.js",
+    "start": "npx figma-developer-mcp",
     "start:cli": "cross-env NODE_ENV=cli node dist/cli.js",
     "start:http": "node dist/cli.js",
     "dev": "cross-env NODE_ENV=development tsup --watch",
